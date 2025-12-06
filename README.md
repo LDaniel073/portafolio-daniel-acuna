@@ -160,27 +160,38 @@ git push -u origin feature/nombre-feature
 
 ```
 portafolio-daniel-acuna/
-├── .same/                      # Documentación del proyecto
-│   ├── todos.md
-│   ├── 2.1-configuracion-inicial.md
-│   ├── 2.3-estrategia-branching.md
-│   ├── 2.4-flujo-trabajo-git.md
-│   ├── 2.5-convenciones-commits.md
-│   ├── 2.6-estructura-proyecto.md
-│   ├── parte-1-scrum.md
-│   └── documentacion-final.md
+├── node_modules/               # Dependencias instaladas (gestionado por npm/yarn) 
 ├── public/                     # Assets estáticos
 │   ├── images/
 │   └── assets/
 ├── src/
 │   ├── components/            # Componentes React
 │   │   ├── ui/               # Componentes shadcn/ui
+|   |   |   ├─ badge.tsx
+|   |   |   ├─ button.tsx
+|   |   |   ├─ card.tsx
+|   |   |   ├─ input.tsx
+|   |   |   ├─ separator.tsx
+|   |   |   └─ textarea.tsx
 │   │   ├── layout/           # Header, Footer, Navigation
+|   |   |   ├─ Footer.tsx
+|   |   |   └─ Header.tsx
 │   │   ├── sections/         # Hero, About, Projects, etc.
+|   |   |   ├─ About.tsx
+|   |   |   ├─ Contact.tsx
+|   |   |   ├─ Education.tsx
+|   |   |   ├─ Hero.tsx
+|   |   |   ├─ Projects.tsx
+|   |   |   └─ Skills.tsx
 │   │   └── shared/           # Componentes reutilizables
 │   ├── data/                 # Datos estáticos (proyectos, skills)
+|   |   ├─ education.ts
+|   |   ├─ personal-info.ts
+|   |   ├─ projects.ts
+|   |   └─ skill.ts
 │   ├── hooks/                # Custom React Hooks
 │   ├── lib/                  # Utilidades
+|   |   └─ utils.ts
 │   ├── styles/               # Estilos CSS
 │   ├── types/                # TypeScript types
 │   ├── App.tsx               # Componente principal
