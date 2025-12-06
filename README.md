@@ -273,4 +273,4 @@ Este proyecto es de uso académico para la Universidad Autónoma Tomás Frías.
 
 ---
 
-**Desarrollado con ❤️ por Daniel Acuña**
+**Desarrollado con ❤️ por Daniel Acuña ^^**
